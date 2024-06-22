@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "src": "/(.*)", "dest": "https://:so.dingdinghome.asia:8443" },
+     { "source": "/(*)", "destination": "https://:so.dingdinghome.asia:8443/$1" }
   ]
 }
