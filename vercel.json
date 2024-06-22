@@ -1,5 +1,5 @@
 {
   "rewrites": [
-     { "source": "/(.*)", "destination": "https://dingdinghome.asia:8443" }
+     { "source": "*", "destination": "https://dingdinghome.asia:8443" }
   ]
 }
